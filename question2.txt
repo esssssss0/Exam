@@ -1,0 +1,42 @@
+question2.txt
+
+
+Fill in the below blank ASCII art version of UML class diagram 
+with the relevant information about the class in question1.
+
+Indicate whether something is an instance or class attribute by 
+putting (i) or (c) before the name.
+
+For example, identify a class attribute as:
+
+(c) class_attribute_name
+
+
+TOTAL POINTS AVAILABLE: 10 
+
+
+Diagram Completeness (10)
+10 points - no errors, everything is correctly included
+7-9 points - all of the information is included, but formatted incorrectly
+5-6 points - some of the information is missing
+2-4 points - a large amount of the information is wrong or missing
+1 point - a minimal attempt was made with most information wrong or missing
+0 points - no attempt made
+
+
+
+|-------------------------------------|
+| Bank Account                        |
+|-------------------------------------|
+| (c) account_type                    |
+| (c) business_account                |
+| (i) account_holder                  |
+| (i) balance                         |
+|-------------------------------------|
+| (i) __init__()                      |
+| (i) deposit()                       |
+| (i) withdraw()                      |
+| (i) get_balance()                   |
+| (i) __str__()                       |
+|-------------------------------------|
+
